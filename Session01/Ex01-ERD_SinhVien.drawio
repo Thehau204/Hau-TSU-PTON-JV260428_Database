@@ -1,0 +1,49 @@
+<mxfile host="Electron">
+  <diagram name="ERD_SinhVien" id="0">
+    <mxGraphModel dx="1414" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="entity1" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" value="SinhVien" vertex="1">
+          <mxGeometry height="60" width="140" x="340" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="attr1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" value="PK MaSV" vertex="1">
+          <mxGeometry height="50" width="120" x="350" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="attr2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="HoTen" vertex="1">
+          <mxGeometry height="50" width="120" x="160" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="attr3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="NgaySinh" vertex="1">
+          <mxGeometry height="50" width="120" x="160" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="attr4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="GioiTinh" vertex="1">
+          <mxGeometry height="50" width="120" x="540" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="attr5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="DiaChi" vertex="1">
+          <mxGeometry height="50" width="120" x="540" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="attr6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="SoDienThoai" vertex="1">
+          <mxGeometry height="50" width="140" x="340" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" edge="1" parent="1" source="attr1" target="entity1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="attr2" target="entity1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="attr3" target="entity1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="1" source="attr4" target="entity1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" edge="1" parent="1" source="attr5" target="entity1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" edge="1" parent="1" source="attr6" target="entity1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
