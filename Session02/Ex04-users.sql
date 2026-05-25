@@ -1,0 +1,9 @@
+USE ddl_sql;
+
+CREATE TABLE users (
+    UserID VARCHAR(20) PRIMARY KEY,
+    Username VARCHAR(50) UNIQUE,
+    Password VARCHAR(100) NOT NULL,
+    Status VARCHAR(10) DEFAULT 'ACTIVE',
+    CHECK (Status IN ('ACTIVE', 'INACTIVE'))
+);
