@@ -1,0 +1,12 @@
+CREATE TABLE users2 (
+    UserID VARCHAR(20) PRIMARY KEY,
+    Username VARCHAR(50) UNIQUE,
+    Password VARCHAR(100) NOT NULL,
+    Email VARCHAR(100) UNIQUE,
+    Status VARCHAR(10) DEFAULT 'ACTIVE'
+);
+
+ALTER TABLE users
+ADD CONSTRAINT chk_status CHECK (Status IN ('ACTIVE', 'INACTIVE'));
+
+DROP TABLE users;
